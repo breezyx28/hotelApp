@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="Libraries/bootstrap.min.css" />
+    <link rel="stylesheet" href="Libraries/fontawesome-free/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="media/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="media/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"
+    />
+  </head>
+  <body style="background-color: #fc6c71;">
+    <div class="row d-flex h-100">
+      <!-- left side nav menu -->
+      <ul
+        style="list-style: none; width: 8%;"
+        class="col-1 d-flex h-100 justify-content-around align-items-center pl-4 flex-column"
+      >
+        <li><span class="fas fa-mountain pb-2"></span></li>
+        <li><span class="fas fa-home"></span></li>
+        <li><span class="fas fa-heart"></span></li>
+        <li><span class="fas fa-user"></span></li>
+        <li><span class="fas fa-bell"></span></li>
+        <li><span class="fas fa-code mb-5 pb-5"></span></li>
+        <li><span class="fas fa-cog pt-5 mt-5"></span></li>
+      </ul>
+
+      <!-- main container -->
+      <div id="main" style="background-color: #fef2f2;" class="h-100 col-11">
+        <div class="row d-flex flex-row justify-content-between pr-5">
+          <div class="col-12 d-flex mb-3 mt-4 ml-5">
+            <div class="col-md-6">
+              <div class="input-group mt-3">
+                <div class="input-group-prepend">
+                  <span
+                    class="input-group-text bg-white border-0"
+                    id="basic-addon1 "
+                    ><i class="fas fa-search" aria-hidden="true"></i
+                  ></span>
+                </div>
+                <input
+                  type="text"
+                  class="form-control border-0"
+                  placeholder="Search"
+                  aria-label="Username"
+                  aria-describedby="basic-addon1"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                id="profile"
+                class="d-flex justify-content-end align-items-center"
+              >
+                <p class="h6 mt-3">Mohamed</p>
+                <div
+                  id="profile_wrapper"
+                  class="d-flex justify-content-end mt-2"
+                >
+                  <div id="status_icon" class="bg-danger"></div>
+                  <img
+                    src="img/person.jpg"
+                    width="37"
+                    height="50"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- icons box container -->
+          <div class="col-md-12 d-flex flex-row ml-5">
+            <div class="col-7 ml-4">
+              <div class="d-flex flex-row justify-content-around">
+                <div
+                  class="icon_box d-flex p-3 m-1 justify-content-center align-items-center"
+                >
+                  <i class="fas fa-home fa-2x"></i>
+                </div>
+                <div
+                  class="icon_box d-flex p-3 m-1 justify-content-center align-items-center"
+                >
+                  <i class="fas fa-umbrella-beach fa-2x"></i>
+                </div>
+                <div
+                  class="icon_box d-flex p-3 m-1 justify-content-center align-items-center"
+                >
+                  <i class="fas fa-tachometer-alt fa-2x"></i>
+                </div>
+                <div
+                  class="icon_box d-flex p-3 m-1 justify-content-center align-items-center"
+                >
+                  <i class="fas fa-plane fa-2x"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Horizontal Gallary -->
+          <div class="col-12 d-flex flex-column ml-4">
+            <div class="row d-flex flex-row justify-content-between ml-5 mt-3">
+              <p><b>Best</b> Experiences</p>
+              <a href="#" class="text-pink"
+                >view all <i class="fas fa-arrow-right text-pink"></i
+              ></a>
+            </div>
+            <div
+              id="img_box_wrapper"
+              class="d-flex justify-content-between position-relative m-1"
+            >
+              <div
+                class="d-flex justify-content-between position-relative mt-1 ml-5"
+              >
+                <div class="img_cover">
+                  <img
+                    src="img/bk/bantersnaps-wPMvPMD9KBI-unsplash.jpg"
+                    class="img_box"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  id="img_content"
+                  class="d-flex flex-column justify-content-center align-self-end ml-2 position-absolute"
+                >
+                  <p class="col-10 d-flex h6">
+                    <small>explore the world</small>
+                  </p>
+                  <div
+                    class="col-12 d-flex flex-row justify-content-between mb-1"
+                  >
+                    <span class="fas fa-comment"></span>
+                    <span class="fas fa-heart"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between position-relative m-1">
+                <div class="img_cover">
+                  <img
+                    class="img_box"
+                    src="img/bk/boxed-water-is-better-km8IZ4xX9vA-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  id="img_content"
+                  class="d-flex flex-column justify-content-center align-self-end ml-2 position-absolute"
+                >
+                  <p class="col-10 d-flex h6">
+                    <small>explore the world</small>
+                  </p>
+                  <div
+                    class="col-12 d-flex flex-row justify-content-between mb-1"
+                  >
+                    <span class="fas fa-comment"></span>
+                    <span class="fas fa-heart"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between position-relative m-1">
+                <div class="img_cover">
+                  <img
+                    class="img_box"
+                    src="img/bk/etienne-bosiger-OWsdJ-MllYA-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  id="img_content"
+                  class="d-flex flex-column justify-content-center align-self-end ml-2 position-absolute"
+                >
+                  <p class="col-10 d-flex h6">
+                    <small>explore the world</small>
+                  </p>
+                  <div
+                    class="col-12 d-flex flex-row justify-content-between mb-1"
+                  >
+                    <span class="fas fa-comment"></span>
+                    <span class="fas fa-heart"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between position-relative m-1">
+                <div class="img_cover">
+                  <img
+                    class="img_box"
+                    src="img/bk/liam-simpson-umycmizZHn8-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  id="img_content"
+                  class="d-flex flex-column justify-content-center align-self-end ml-2 position-absolute"
+                >
+                  <p class="col-10 d-flex h6">
+                    <small>explore the world</small>
+                  </p>
+                  <div
+                    class="col-12 d-flex flex-row justify-content-between mb-1"
+                  >
+                    <span class="fas fa-comment"></span>
+                    <span class="fas fa-heart"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between position-relative m-1">
+                <div class="img_cover">
+                  <img
+                    class="img_box"
+                    src="img/bk/mohammad-hoseini-rad-pYOUfgHnJe0-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  id="img_content"
+                  class="d-flex flex-column justify-content-center align-self-end ml-2 position-absolute"
+                >
+                  <p class="col-10 d-flex h6">
+                    <small>explore the world</small>
+                  </p>
+                  <div
+                    class="col-12 d-flex flex-row justify-content-between mb-1"
+                  >
+                    <span class="fas fa-comment"></span>
+                    <span class="fas fa-heart"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between position-relative m-1">
+                <div class="img_cover">
+                  <img
+                    class="img_box"
+                    src="img/bk/mohammad-hoseini-rad-pYOUfgHnJe0-unsplash.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div
+                  id="img_content"
+                  class="d-flex flex-column justify-content-center align-self-end ml-2 position-absolute"
+                >
+                  <p class="col-10 d-flex h6">
+                    <small>explore the world</small>
+                  </p>
+                  <div
+                    class="col-12 d-flex flex-row justify-content-between mb-1"
+                  >
+                    <span class="fas fa-comment"></span>
+                    <span class="fas fa-heart"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- cards container -->
+          <div class="d-flex flex-column ml-5">
+            <!-- wrapper -->
+            <div class="row">
+              <!-- header and navigation -->
+              <div
+                class="col-10 d-flex flex-row justify-content-between ml-4 mt-3"
+              >
+                <div class="col-12 d-flex flex-row justify-content-between">
+                  <p class=""><b>Top</b> Hotels</p>
+                  <a href="#" class="text-pink"
+                    >view all <i class="fas fa-arrow-right text-pink"></i
+                  ></a>
+                </div>
+              </div>
+
+              <!-- cards slider -->
+              <div
+                class="d-flex justify-content-between position-relative ml-3"
+              >
+                <!-- card-one -->
+                <div
+                  style="width: 33%; min-width: 320px;"
+                  class="d-flex justify-content-between p-2 ml-5 flex-row bg-white rounded"
+                >
+                  <div class="d-flex flex-row justify-content-between p-2">
+                    <img
+                      src="img/bk/liam-simpson-umycmizZHn8-unsplash.jpg"
+                      width="60"
+                      height="60"
+                      class="col-4 rounded"
+                      alt=""
+                    />
+                    <div class="col-8 d-flex flex-column">
+                      <p class="h6 ml-3">The Name Of Hotel</p>
+                      <small class="ml-3">Qualalambour</small>
+                    </div>
+                  </div>
+                  <div class="col-2 d-flex justify-content-end p-2">
+                    <span class="fas fa-star text-gold"></span><b>4.2</b>
+                  </div>
+                </div>
+
+                <!-- card-two -->
+                <div
+                  style="width: 33%; min-width: 320px;"
+                  class="d-flex justify-content-between p-2 ml-5 flex-row bg-white rounded"
+                >
+                  <div class="d-flex flex-row justify-content-between p-2">
+                    <img
+                      src="img/bk/liam-simpson-umycmizZHn8-unsplash.jpg"
+                      width="60"
+                      height="60"
+                      class="col-4 rounded"
+                      alt=""
+                    />
+                    <div class="col-8 d-flex flex-column">
+                      <p class="h6 ml-3">The Name Of Hotel</p>
+                      <small class="ml-3">Qualalambour</small>
+                    </div>
+                  </div>
+                  <div class="col-2 d-flex justify-content-end p-2">
+                    <span class="fas fa-star text-gold"></span><b>4.2</b>
+                  </div>
+                </div>
+
+                <!-- card-three -->
+                <div
+                  style="width: 33%; min-width: 320px;"
+                  class="d-flex justify-content-between p-2 ml-5 flex-row bg-white rounded"
+                >
+                  <div class="d-flex flex-row justify-content-between p-2">
+                    <img
+                      src="img/bk/liam-simpson-umycmizZHn8-unsplash.jpg"
+                      width="60"
+                      height="60"
+                      class="col-4 rounded"
+                      alt=""
+                    />
+                    <div class="col-8 d-flex flex-column">
+                      <p class="h6 ml-3">The Name Of Hotel</p>
+                      <small class="ml-3">Qualalambour</small>
+                    </div>
+                  </div>
+                  <div class="col-2 d-flex justify-content-end p-2">
+                    <span class="fas fa-star text-gold"></span><b>4.2</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="Libraries/jquery-3.3.1.slim.min.js"></script>
+    <script src="Libraries/popper.min.js"></script>
+    <script src="Libraries/bootstrap-4.3.1.min.js"></script>
+    <script src="media/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.owl-carousel').owlCarousel();
+      });
+    </script>
+  </body>
+</html>
